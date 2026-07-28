@@ -21,10 +21,7 @@ function Hero() {
 
       </div>
 
-      <img
-        src="https://i.pravatar.cc/350"
-        alt="Profile"
-      />
+      
 
     </section>
   );
