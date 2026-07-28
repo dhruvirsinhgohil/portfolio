@@ -1,0 +1,32 @@
+.skills{
+    text-align:center;
+}
+
+.skills h2{
+    font-size:40px;
+    color:#38bdf8;
+    margin-bottom:40px;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.skill-card{
+    background:#1f2937;
+    padding:30px;
+    border-radius:10px;
+    font-size:22px;
+    font-weight:bold;
+    transition:.3s;
+    cursor:pointer;
+    border:2px solid transparent;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    border-color:#38bdf8;
+    color:#38bdf8;
+}

@@ -1,0 +1,42 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:#1f2937;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.logo{
+    color:#38bdf8;
+}
+
+.navbar ul{
+    display:flex;
+    gap:30px;
+}
+
+.navbar a{
+    color:white;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:#38bdf8;
+}
+
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    gap:20px;
+}
+
+.navbar ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}

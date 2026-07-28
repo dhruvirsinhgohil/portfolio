@@ -1,0 +1,43 @@
+.footer{
+    background:#1f2937;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.footer h2{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.footer p{
+    margin:10px 0;
+}
+
+.social{
+    margin:25px 0;
+}
+
+.social a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:50px;
+    height:50px;
+    margin:0 10px;
+    background:#38bdf8;
+    color:white;
+    border-radius:50%;
+    font-size:22px;
+    transition:.3s;
+}
+
+.social a:hover{
+    transform:translateY(-8px);
+    background:white;
+    color:#38bdf8;
+}
+
+.copyright{
+    margin-top:20px;
+    color:#ccc;
+}
