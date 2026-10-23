@@ -1,42 +1,103 @@
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 10%;
-    background:#1f2937;
-    position:sticky;
-    top:0;
-    z-index:100;
+.navbar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  min-height: 76px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 12px max(7vw, 24px);
+  border-bottom: 1px solid var(--color-border);
+  background: color-mix(in srgb, var(--color-background) 90%, transparent);
+  backdrop-filter: blur(18px);
 }
 
-.logo{
-    color:#38bdf8;
+.logo {
+  color: var(--color-text);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.08em;
 }
 
-.navbar ul{
-    display:flex;
-    gap:30px;
+.logo span {
+  color: var(--color-accent);
 }
 
-.navbar a{
-    color:white;
-    font-weight:bold;
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2.5vw, 32px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.navbar a:hover{
-    color:#38bdf8;
+.navbar-links a {
+  color: var(--color-muted);
+  font-size: 0.84rem;
+  font-weight: 550;
+  transition: color 160ms ease;
 }
 
-@media(max-width:768px){
-
-.navbar{
-    flex-direction:column;
-    gap:20px;
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: var(--color-accent);
 }
 
-.navbar ul{
-    flex-wrap:wrap;
-    justify-content:center;
+.theme-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-muted);
+  font-size: 0.75rem;
 }
 
+.theme-picker select {
+  max-width: 104px;
+  padding: 8px 24px 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.theme-picker option {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+@media (max-width: 760px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .navbar-links {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .navbar {
+    padding: 12px 18px;
+  }
+
+  .navbar-links {
+    gap: 8px;
+  }
+
+  .navbar-links a {
+    font-size: 0.74rem;
+  }
+
+  .theme-picker span {
+    display: none;
+  }
 }

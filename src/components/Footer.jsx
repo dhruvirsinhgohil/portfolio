@@ -13,7 +13,7 @@ function Footer() {
 
         <footer className="footer">
 
-            <h2>Dhruvrajsinh Gohil</h2>
+            <h2>Dhruvirsinh Gohil</h2>
 
             <p>Full Stack Developer</p>
 
@@ -54,7 +54,7 @@ function Footer() {
             </div>
 
             <p className="copyright">
-                © 2026 Dhruvrajsinh Gohil. All Rights Reserved.
+                © 2026 Dhruvirsinh Gohil. All rights reserved.
             </p>
 
         </footer>
