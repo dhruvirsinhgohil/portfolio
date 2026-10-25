@@ -8,7 +8,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A responsive personal portfolio built to introduce my work, skills, and projects.",
     tech: ["React", "CSS"],
-    demo: "https://portfolio-7ka7wonwd-acme-4d36.vercel.app/",
+    demo: "https://portfolio-mocha-rho-86.vercel.app/",
   },
   {
     id: "food-ordering",
