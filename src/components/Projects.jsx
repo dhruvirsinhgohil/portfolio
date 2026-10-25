@@ -8,7 +8,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A responsive personal portfolio built to introduce my work, skills, and projects.",
     tech: ["React", "CSS"],
-    demo: "https://portfolio-qosvhsrhg-acme-4d36.vercel.app/",
+    demo: "https://portfolio-7ka7wonwd-acme-4d36.vercel.app/",
   },
   {
     id: "food-ordering",
@@ -24,6 +24,7 @@ const projects = [
     title: "AI Resume Builder & Analyzer",
     description: "A resume builder and analyzer project integrating Gemini AI.",
     tech: ["Node.js", "Express", "MongoDB", "Gemini AI"],
+    demo:"https://ai-resume-analyzer-e84ct03eb-acme-4d36.vercel.app"
   },
 ];
 

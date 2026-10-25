@@ -2,9 +2,7 @@ import "./../css/Footer.css";
 
 import {
     FaGithub,
-    FaLinkedin,
-    FaInstagram,
-    FaFacebook
+    FaLinkedin
 } from "react-icons/fa";
 
 function Footer() {
@@ -20,7 +18,7 @@ function Footer() {
             <div className="social">
 
                 <a
-                    href="https://github.com/"
+                    href="https://github.com/dhruvirsinhgohil"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -28,27 +26,11 @@ function Footer() {
                 </a>
 
                 <a
-                    href="https://linkedin.com/"
+                    href="https://linkedin.com/in/dhruvirsinh-gohil-921b70318"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <FaLinkedin />
-                </a>
-
-                <a
-                    href="https://instagram.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FaInstagram />
-                </a>
-
-                <a
-                    href="https://facebook.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FaFacebook />
                 </a>
 
             </div>
